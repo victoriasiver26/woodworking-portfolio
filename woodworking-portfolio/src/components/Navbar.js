@@ -1,9 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './styles.css';
 
 function Navbar() {
         return (
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-color justify-content-end">
                 <a class="navbar-brand" href="#">Vic's Woodworking</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
