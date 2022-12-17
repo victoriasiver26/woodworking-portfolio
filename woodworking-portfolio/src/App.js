@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <Router>
-      <div class="page-container">
+      <div className="page-container">
         <div className="content-wrap">
           <Navbar/>
           <Routes>
@@ -28,6 +28,7 @@ function App() {
         </div>
         <Footer />
       </div>
+       
     </Router>
    
   );

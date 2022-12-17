@@ -11,9 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
 .page-container {
   position: relative;
-  min-height: 100vh;
-  background-color: #BFBFBF;
+  min-height: 98vh;
 }
+.content-wrap {
+  padding-bottom: 8rem;    /* Footer height */
+}
+
