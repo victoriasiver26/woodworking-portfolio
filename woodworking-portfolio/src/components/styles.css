@@ -1,21 +1,17 @@
-.page-container {
-    position: relative;
-    min-height: 100vh;
-    background-color: #9a9999;
+  .navbar-color {
+    background-color: #404040;
   }
-  .content-wrap {
-    padding-bottom: 3rem;    /* Footer height */
-  }
-  
   .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    overflow: hidden;
+    height: 8rem;            /* Footer height */
     background-color: #404040;
     color: white;
     text-align: center;
   }
-  
-  .navbar-color {
-    background-color: #404040;
+
+  .footer-links{
+    color: white;
   }
