@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/woodworking-portfolio/static/css/main.08f823cd.css",
+    "main.js": "/woodworking-portfolio/static/js/main.6ab17e22.js",
+    "static/media/woodwork_2.png": "/woodworking-portfolio/static/media/woodwork_2.a35e2ab22b3b2d85f553.png",
+    "static/media/woodwork_3.png": "/woodworking-portfolio/static/media/woodwork_3.06b658045eb5922cc191.png",
+    "static/media/placeholder_logo.png": "/woodworking-portfolio/static/media/placeholder_logo.905e0aeb865781305532.png",
+    "static/media/woodwork_1.jpeg": "/woodworking-portfolio/static/media/woodwork_1.fc86b7a4f67870414adf.jpeg",
+    "index.html": "/woodworking-portfolio/index.html",
+    "main.08f823cd.css.map": "/woodworking-portfolio/static/css/main.08f823cd.css.map",
+    "main.6ab17e22.js.map": "/woodworking-portfolio/static/js/main.6ab17e22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08f823cd.css",
+    "static/js/main.6ab17e22.js"
+  ]
+}
