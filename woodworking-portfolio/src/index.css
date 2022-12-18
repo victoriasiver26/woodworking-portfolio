@@ -14,8 +14,10 @@ code {
 .page-container {
   position: relative;
   min-height: 98vh;
+  background-color: #cbcbc0;
 }
 .content-wrap {
   padding-bottom: 8rem;    /* Footer height */
+  background-color: #cbcbc0;
 }
 

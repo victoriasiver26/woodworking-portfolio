@@ -4,11 +4,15 @@ import "./index.css"
 import {
   Landing,
   Navbar,
-  Project1,
-  Project2,
+  Projects,
+  Intarsia,
   Footer,
   AboutMe,
   Contact,
+  Sorter,
+  Bear_Forest,
+  Teddy_Bear,
+  Crysknife,
 } from "./components";
 
 function App() {
@@ -19,10 +23,14 @@ function App() {
           <Navbar/>
           <Routes>
             <Route path="/" element={<Landing />} />
-            <Route path="/project1" element={<Project1 />} />
-            <Route path="/project2" element={<Project2 />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/intarsia" element={<Intarsia />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/sorter" element={<Sorter />} />
+            <Route path="/bear_forest" element={<Bear_Forest />} />
+            <Route path="/teddy_bear" element={<Teddy_Bear />} />
+            <Route path="/crysknife" element={<Crysknife />} />
             <Route path="*" element={<h1>PAGE NOT FOUND </ h1>} />
           </Routes>
         </div>
