@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import './styles.css';
@@ -13,9 +12,9 @@ function Footer() {
           <img src={require(`../assets/placeholder_logo.png`)} width="50" height="50" alt="Logo"/>
               <p>Victoria Siver's Woodworking Portfolio</p>
           </div>
-          <div class="col">
-              <h4> <NavLink to="/aboutme"> About Me</NavLink> </h4>
-              <h4> <NavLink to="/contact"> Contact </NavLink> </h4> 
+          <div class="col navbar-nav">
+              <NavLink to="/aboutme">  <h7 className="footer-text">About Me</h7> </NavLink>
+              <NavLink to="/contact">  <h7 className="footer-text">Contact</h7> </NavLink>
           </div>
       </div>
     </div>
